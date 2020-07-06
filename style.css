@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    font-family: 'Sen', sans-serif;
+    text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+    width: 100vw;
+}
+
+.navigation {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: hsla(0, 78.72%, 63.14%, 1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.block {
+    height: 90%;
+    margin: auto;
+    margin-left: 5%;
+}
+
+.nav-logo {
+    height: 100%;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 15px;
+    padding: 3px 10px;
+    font-size: 1.3rem;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.nav-link:hover {
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    color: hsla(0, 78.72%, 63.14%, 1);
+}
+
+nav {
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: row;
+    align-items: center;
+}
+
+nav :last-child {
+    border: none;
+}
+
+.cover {
+    width: 100vw;
+    height: 70vh;
+    background: url("images/coverimage.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
